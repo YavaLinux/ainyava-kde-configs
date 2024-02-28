@@ -8,9 +8,9 @@ Stiffness=10
 WobblynessLevel=1
 
 [Plugins]
+kwin4_effect_yetanothermagiclampEnabled=true
 mousemarkEnabled=true
 wobblywindowsEnabled=true
-magiclampEnabled=true
 
 [Desktops]
 Id_1=5bc30d59-6ec0-4434-97c1-66be3569b590
@@ -46,3 +46,5 @@ Scale=1
 [org.kde.kdecoration2]
 ButtonsOnLeft=XAI
 ButtonsOnRight=HSM
+library=org.kde.sierrabreezeenhanced
+theme=Sierra Breeze Enhanced
