@@ -6,8 +6,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Ainyava/
-SlidePaths=/usr/share/wallpapers/
+Image=/usr/share/wallpapers/Ainyava/contents/images/1920x1080.jpg
 
 [Containments][2]
 activityId=
@@ -24,11 +23,12 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][20][Configuration]
 PreloadWeight=100
-popupHeight=500
-popupWidth=440
+popupHeight=564
+popupWidth=504
 
 [Containments][2][Applets][20][Configuration][Appearance]
 dateDisplayFormat=BesideTime
+fontWeight=400
 pin=true
 showDate=false
 
@@ -42,7 +42,6 @@ plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][25][Configuration][General]
 length=1400
-
 
 [Containments][2][Applets][27]
 immutability=1
@@ -66,6 +65,11 @@ visibility=ActiveMaximizedWindow
 immutability=1
 plugin=org.kde.windowtitle
 
+[Containments][2][Applets][34][Configuration]
+PreloadWeight=70
+popupHeight=472
+popupWidth=472
+
 [Containments][2][Applets][34][Configuration][General]
 containmentType=Plasma
 
@@ -73,14 +77,9 @@ containmentType=Plasma
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
-
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.showdesktop
-
-[Containments][2][Applets][39]
-immutability=1
-plugin=org.kde.plasma.kickerdash
 
 [Containments][2][Applets][6][Configuration]
 PreloadWeight=42
@@ -113,6 +112,7 @@ AppletOrder=33;34;27;25;20;36;7;8;6
 [Containments][38]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
+activityId=f4b51560-3941-45ce-b4df-7d56a9f3a70c
 formfactor=0
 immutability=1
 lastScreen=0
@@ -127,6 +127,77 @@ DialogWidth=720
 [Containments][38][Configuration]
 PreloadWeight=34
 
+[Containments][38][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=366
+ToolBoxButtonY=48
+positions={"1920x1080":["6"\\,"17"\\,"desktop:/test.py"\\,"3"\\,"0"\\,"desktop:/profile.jpg"\\,"0"\\,"0"\\,"desktop:/test"\\,"2"\\,"0"\\,"desktop:/Hamed Mahmoudkhani.pdf"\\,"1"\\,"0"\\,"desktop:/photo_2024-03-11_21-13-31.jpg"\\,"5"\\,"0"\\,"desktop:/1689417860728.jpeg"\\,"4"\\,"0"]\\,"0x0":[]}
+sortMode=-1
+
+[Containments][38][Wallpaper][a2n.blur][General]
+Image=/home/ainyava/Pictures/wall.jpeg
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][38][Wallpaper][com.github.zren.inactiveblur][General]
+Blur=true
+FillMode=6
+Image=/home/ainyava/Pictures/wall.jpeg
+SlideInterval=900
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][38][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Ainyava/
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][39]
+activityId=f4b51560-3941-45ce-b4df-7d56a9f3a70c
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][42]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][42][Applets][43]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][42][Applets][43][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][42][Applets][43][Configuration][General]
+launchers=applications:org.kde.konsole.desktop,preferred://filemanager,preferred://browser,applications:code.desktop,applications:sublime_text.desktop,applications:org.telegram.desktop.desktop,applications:discord.desktop
+
+[Containments][42][Applets][44]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][42][Applets][44][Configuration]
+PreloadWeight=100
+
+[Containments][42][Applets][44][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][42][Applets][44][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][42][Applets][44][Shortcuts]
+global=Alt+F1
+
+[Containments][42][General]
+AppletOrder=44;43
+
 [Containments][9]
 activityId=
 formfactor=2
@@ -134,8 +205,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
-popupHeight=480
-popupWidth=480
+popupHeight=528
+popupWidth=528
 wallpaperplugin=org.kde.image
 
 [Containments][9][Applets][10]
@@ -175,7 +246,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
 [Containments][9][Applets][14][Configuration]
-PreloadWeight=42
+PreloadWeight=100
 
 [Containments][9][Applets][15]
 immutability=1
@@ -224,7 +295,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][9][Applets][21][Configuration]
-PreloadWeight=7
+PreloadWeight=0
 
 [Containments][9][Applets][22]
 immutability=1
@@ -238,7 +309,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][9][Applets][23][Configuration]
-PreloadWeight=100
+PreloadWeight=17
 
 [Containments][9][Applets][26]
 immutability=1
@@ -273,6 +344,17 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.kscreen
 
+[Containments][9][Applets][40]
+immutability=1
+plugin=org.kde.plasma.cameraindicator
+
+[Containments][9][Applets][41]
+immutability=1
+plugin=org.kde.plasma.brightness
+
+[Containments][9][Applets][41][Configuration]
+PreloadWeight=31
+
 [Containments][9][ConfigDialog]
 DialogHeight=570
 DialogWidth=760
@@ -281,12 +363,8 @@ DialogWidth=760
 PreloadWeight=42
 
 [Containments][9][General]
-extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.kscreen
-knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.kscreen
-
-[Containments][38][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Ainyava/
-SlidePaths=/usr/share/wallpapers/
+extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
+knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
 
 [Containments1Appletsts][33][Configuration][General]
 formFactor=0

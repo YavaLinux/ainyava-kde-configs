@@ -8,8 +8,8 @@ Stiffness=10
 WobblynessLevel=1
 
 [Plugins]
-kwin4_effect_yetanothermagiclampEnabled=true
-mousemarkEnabled=true
+# kwin4_effect_yetanothermagiclampEnabled=true
+kwin4_effect_squashEnabled=false
 wobblywindowsEnabled=true
 
 [Desktops]
