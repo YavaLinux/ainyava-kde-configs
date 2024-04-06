@@ -106,10 +106,10 @@ ColorSchemeHash=caf9814ce486ec8051875daf6dbac7aac7f820f3
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=Comic Mono,10,-1,5,50,0,0,0,0,0
-font=Comic Sans MS [MS  ],10,-1,5,50,0,0,0,0,0
-menuFont=Comic Sans MS [MS  ],10,-1,5,50,0,0,0,0,0
-smallestReadableFont=Comic Sans MS [MS  ],8,-1,5,50,0,0,0,0,0
-toolBarFont=Comic Sans MS [MS  ],10,-1,5,50,0,0,0,0,0
+font=Product Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Product Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Product Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Product Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 LookAndFeelPackage=Ainyava
@@ -142,7 +142,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=Comic Sans MS [MS  ],10,-1,5,50,0,0,0,0,0
+activeFont=Product Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
