@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/LayoutTemplate",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "ainyava@gmail.com",
+                "Name": "Hamed Mahmoudkhani"
+            }
+        ],
+        "Category": "",
+        "Description": "Yavalinux panel generation",
+        "Website": "https://ainyava.ir/yavalinux"
+    },
+    "X-Plasma-ContainmentCategories": [
+        "panel"
+    ],
+    "X-Plasma-Shell": "plasmashell"
+}
