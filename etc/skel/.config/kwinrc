@@ -44,7 +44,5 @@ BorderlessMaximizedWindows=false
 Scale=1
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=MNS
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Ainyava
-
