@@ -43,10 +43,6 @@ plugin=org.kde.plasma.panelspacer
 [Containments][2][Applets][25][Configuration][General]
 length=1400
 
-[Containments][2][Applets][27]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
 [Containments][2][Applets][33]
 immutability=1
 plugin=org.kde.windowbuttons
@@ -54,12 +50,6 @@ plugin=org.kde.windowbuttons
 [Containments][2][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][2][Applets][33][Configuration][General]
-buttonSizePercentage=70
-containmentType=Plasma
-useDecorationMetrics=false
-visibility=ActiveMaximizedWindow
 
 [Containments][2][Applets][34]
 immutability=1
@@ -76,6 +66,10 @@ containmentType=Plasma
 [Containments][2][Applets][36]
 immutability=1
 plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][46]
+immutability=1
+plugin=org.kde.plasma.appmenu
 
 [Containments][2][Applets][6]
 immutability=1
@@ -107,56 +101,7 @@ DialogWidth=1920
 PreloadWeight=26
 
 [Containments][2][General]
-AppletOrder=33;34;27;25;20;36;7;8;6
-
-[Containments][38]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=f4b51560-3941-45ce-b4df-7d56a9f3a70c
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][38][ConfigDialog]
-DialogHeight=570
-DialogWidth=720
-
-[Containments][38][Configuration]
-PreloadWeight=34
-
-[Containments][38][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=366
-ToolBoxButtonY=48
-positions={"1920x1080":["6"\\,"17"\\,"desktop:/test.py"\\,"3"\\,"0"\\,"desktop:/profile.jpg"\\,"0"\\,"0"\\,"desktop:/test"\\,"2"\\,"0"\\,"desktop:/Hamed Mahmoudkhani.pdf"\\,"1"\\,"0"\\,"desktop:/photo_2024-03-11_21-13-31.jpg"\\,"5"\\,"0"\\,"desktop:/1689417860728.jpeg"\\,"4"\\,"0"]\\,"0x0":[]}
-sortMode=-1
-
-[Containments][38][Wallpaper][a2n.blur][General]
-Image=/home/ainyava/Pictures/wall.jpeg
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][38][Wallpaper][com.github.zren.inactiveblur][General]
-Blur=true
-FillMode=6
-Image=/home/ainyava/Pictures/wall.jpeg
-SlideInterval=900
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][38][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Ainyava/
-SlidePaths=/usr/share/wallpapers/
-
-[Containments][39]
-activityId=f4b51560-3941-45ce-b4df-7d56a9f3a70c
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+AppletOrder=33;34;46;25;20;36;7;8;6
 
 [Containments][42]
 activityId=
@@ -193,10 +138,35 @@ DialogWidth=760
 favoritesPortedToKAstats=true
 
 [Containments][42][Applets][44][Shortcuts]
-global=Alt+F1
+global=
 
 [Containments][42][General]
 AppletOrder=44;43
+
+[Containments][45]
+ItemGeometries-1280x800=
+ItemGeometries-1718x920=
+ItemGeometries-1918x920=
+ItemGeometriesHorizontal=
+activityId=a0e58744-9ec6-438e-86ab-06e40279bf5a
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][45][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
+[Containments][45][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=480
+ToolBoxButtonY=32
+
+[Containments][45][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Ainyava/contents/images/1920x1080.jpg
 
 [Containments][9]
 activityId=
@@ -309,7 +279,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][9][Applets][23][Configuration]
-PreloadWeight=17
+PreloadWeight=1
 
 [Containments][9][Applets][26]
 immutability=1
@@ -353,7 +323,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][9][Applets][41][Configuration]
-PreloadWeight=31
+PreloadWeight=0
 
 [Containments][9][ConfigDialog]
 DialogHeight=570
@@ -363,8 +333,8 @@ DialogWidth=760
 PreloadWeight=42
 
 [Containments][9][General]
-extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
-knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.cameraindicator
+extraItems=org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
+knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.vault,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.printmanager
 
 [Containments1Appletsts][33][Configuration][General]
 formFactor=0

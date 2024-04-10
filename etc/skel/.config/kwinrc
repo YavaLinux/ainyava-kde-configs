@@ -38,13 +38,13 @@ Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
 Mode=Constant
 
 [Windows]
-BorderlessMaximizedWindows=true
+BorderlessMaximizedWindows=false
 
 [Xwayland]
 Scale=1
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=XAI
-ButtonsOnRight=HSM
-library=org.kde.sierrabreezeenhanced
-theme=Sierra Breeze Enhanced
+ButtonsOnLeft=MNS
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Ainyava
+
