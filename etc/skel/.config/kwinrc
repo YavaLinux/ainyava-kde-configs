@@ -8,9 +8,17 @@ Stiffness=10
 WobblynessLevel=1
 
 [Plugins]
-# kwin4_effect_yetanothermagiclampEnabled=true
+blurEnabled=true
+fadeEnabled=true
+fadingpopupsEnabled=false
+krohnkiteEnabled=true
 kwin4_effect_squashEnabled=false
-wobblywindowsEnabled=true
+loginEnabled=false
+logoutEnabled=false
+maximizeEnabled=false
+scaleEnabled=false
+slidingpopupsEnabled=false
+squashEnabled=false
 
 [Desktops]
 Id_1=5bc30d59-6ec0-4434-97c1-66be3569b590
