@@ -17,22 +17,17 @@ if (panel.formFactor === "horizontal") {
     }
 }
 
+panel.addWidget("org.kde.plasma.plasm6desktopindicator")
 panel.addWidget("org.kde.windowtitle")
 panel.addWidget("org.kde.plasma.appmenu")
 panel.addWidget("org.kde.plasma.panelspacer")
-panel.addWidget("org.kde.plasma.digitalclock")
+panel.addWidget("org.kde.plasma.kickoff")
+panel.addWidget("org.kde.plasma.icontasks")
 panel.addWidget("org.kde.plasma.panelspacer")
-panel.addWidget("org.kde.plasma.pager")
-panel.addWidget("org.kde.plasma.marginsseparator")
+panel.addWidget("org.kde.plasma.systemmonitor.cpu")
+panel.addWidget("org.kde.plasma.systemmonitor.memory")
+panel.addWidget("org.kde.plasma.systemmonitor.net")
 panel.addWidget("org.kde.plasma.systemtray")
+panel.addWidget("org.kde.plasma.digitalclock")
 panel.addWidget("org.kde.plasma.showdesktop")
 
-
-var panel = new Panel
-panel.height = 44
-panel.location = "bottom"
-panel.lengthMode = "fit"
-panel.hiding = "dodgewindows"
-panel.floating = false
-
-panel.addWidget("org.kde.plasma.icontasks")
