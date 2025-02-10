@@ -17,12 +17,10 @@ if (panel.formFactor === "horizontal") {
     }
 }
 
-panel.addWidget("org.kde.plasma.plasm6desktopindicator")
 panel.addWidget("org.kde.windowtitle")
 panel.addWidget("org.kde.plasma.appmenu")
 panel.addWidget("org.kde.plasma.panelspacer")
 panel.addWidget("org.kde.plasma.kickoff")
-panel.addWidget("AndromedaLauncher")
 panel.addWidget("org.kde.plasma.icontasks")
 panel.addWidget("org.kde.plasma.panelspacer")
 panel.addWidget("org.kde.plasma.systemmonitor.cpu")
